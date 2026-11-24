@@ -1,0 +1,18 @@
+{
+  "name": "makefun-news-image-20261124",
+  "version": "1.0.0",
+  "description": "A flat editorial front page summing up the world news of November 24, 2026.",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "render": "node render.mjs"
+  },
+  "keywords": [],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

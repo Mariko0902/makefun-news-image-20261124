@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#f7f2e7"/>
+  <style>
+    text { font-family: "Noto Sans", sans-serif; fill: #14213d; }
+    .heavy { font-weight: 900; }
+    .bold { font-weight: 800; }
+    .regular { font-weight: 500; }
+    .red { fill: #c0392b; }
+    .gold { fill: #e0a526; }
+    .white { fill: #fffdf7; }
+    .rule { stroke: #14213d; stroke-width: 2; }
+    .hairline { stroke: #14213d; stroke-width: 1; opacity: .35; }
+  </style>
+
+  <!-- Masthead -->
+  <text x="48" y="78" class="heavy" font-size="55" letter-spacing="-2">THE WORLD IN ONE DAY</text>
+  <rect x="48" y="99" width="928" height="43" fill="#c0392b"/>
+  <text x="64" y="128" class="bold white" font-size="21" letter-spacing="2">TUESDAY · NOVEMBER 24, 2026</text>
+  <text x="959" y="128" class="bold white" font-size="15" text-anchor="end" letter-spacing="1">GLOBAL EDITION  /  01</text>
+
+  <!-- Lead story -->
+  <text x="48" y="174" class="bold red" font-size="14" letter-spacing="2">WORLD  /  CONFLICT</text>
+  <text x="48" y="211" class="heavy" font-size="29" letter-spacing="-.5">UKRAINE SINKS RUSSIAN</text>
+  <text x="48" y="243" class="heavy" font-size="29" letter-spacing="-.5">WARSHIP OFF LIBYA</text>
+  <text x="48" y="272" class="regular" font-size="16">Naval drones hit a Russian corvette in Benghazi port;</text>
+  <text x="48" y="293" class="regular" font-size="16">the UN calls for a probe</text>
+
+  <!-- Hand-drawn flat editorial scene -->
+  <rect x="48" y="308" width="588" height="248" fill="#efe6d4" stroke="#14213d" stroke-width="2"/>
+  <circle cx="552" cy="359" r="22" fill="#e0a526"/>
+  <path d="M50 418 C145 400 205 433 300 414 C400 394 500 431 634 406 L634 554 L50 554 Z" fill="#14213d"/>
+  <path d="M50 434 C143 416 215 450 309 432 C411 411 513 450 634 425" fill="none" stroke="#e0a526" stroke-width="3"/>
+  <path d="M66 479 C144 465 203 490 274 477 M384 480 C457 467 516 490 608 472" fill="none" stroke="#f7f2e7" stroke-width="2" opacity=".8"/>
+  <path d="M255 420 L285 389 L435 389 L469 420 L505 429 L493 446 L227 446 L211 436 Z" fill="#14213d"/>
+  <path d="M285 389 L296 366 L369 366 L387 389 Z" fill="#14213d"/>
+  <rect x="315" y="350" width="8" height="17" fill="#14213d"/>
+  <path d="M319 351 L340 361 L319 361 Z" fill="#c0392b"/>
+  <rect x="353" y="354" width="7" height="12" fill="#14213d"/>
+  <path d="M362 389 L382 379 L400 389" fill="none" stroke="#e0a526" stroke-width="3"/>
+  <path d="M244 427 L468 427" stroke="#e0a526" stroke-width="3"/>
+  <circle cx="281" cy="437" r="3" fill="#e0a526"/>
+  <circle cx="309" cy="437" r="3" fill="#e0a526"/>
+  <circle cx="337" cy="437" r="3" fill="#e0a526"/>
+  <circle cx="365" cy="437" r="3" fill="#e0a526"/>
+  <circle cx="393" cy="437" r="3" fill="#e0a526"/>
+  <!-- Drone -->
+  <g transform="translate(165 352)" stroke="#14213d" stroke-width="4" stroke-linecap="round">
+    <path d="M-21 0 L21 0 M-12 -7 L12 7 M-12 7 L12 -7"/>
+    <path d="M-30 -3 L-23 -3 M23 -3 L30 -3 M-15 -12 L-11 -8 M11 8 L15 12" stroke-width="3"/>
+    <circle cx="-31" cy="0" r="4" fill="#c0392b" stroke="none"/>
+    <circle cx="31" cy="0" r="4" fill="#c0392b" stroke="none"/>
+  </g>
+  <text x="66" y="536" class="bold white" font-size="12" letter-spacing="2">BENGHAZI PORT · MEDITERRANEAN</text>
+
+  <!-- Second story -->
+  <line x1="662" y1="160" x2="662" y2="556" class="hairline"/>
+  <text x="686" y="174" class="bold red" font-size="14" letter-spacing="2">MIDDLE EAST</text>
+  <text x="686" y="211" class="heavy" font-size="25" letter-spacing="-.6">RIYADH'S</text>
+  <text x="686" y="239" class="heavy" font-size="25" letter-spacing="-.6">TALLEST TOWER</text>
+  <text x="686" y="267" class="heavy" font-size="25" letter-spacing="-.6">HIT AGAIN</text>
+  <text x="686" y="297" class="regular" font-size="15">Houthi strike injures 11,</text>
+  <text x="686" y="317" class="regular" font-size="15">the second attack in five days</text>
+  <rect x="686" y="336" width="290" height="220" fill="#efe6d4"/>
+  <path d="M700 520 L700 473 L735 473 L735 449 L762 449 L762 477 L786 477 L786 421 L811 421 L811 392 L830 354 L849 392 L849 421 L875 421 L875 456 L902 456 L902 482 L962 482 L962 520 Z" fill="#14213d"/>
+  <path d="M830 354 L830 337 M824 339 L836 339" stroke="#c0392b" stroke-width="4"/>
+  <path d="M818 405 L842 405 M818 418 L842 418 M818 431 L842 431 M818 444 L842 444 M818 457 L842 457" stroke="#e0a526" stroke-width="3"/>
+  <path d="M705 490 L729 490 M741 490 L755 490 M770 491 L780 491 M859 438 L870 438 M886 472 L897 472 M914 497 L924 497" stroke="#e0a526" stroke-width="3"/>
+  <path d="M686 532 L976 532" stroke="#c0392b" stroke-width="3"/>
+  <text x="700" y="550" class="bold" font-size="12" letter-spacing="1.5">RIYADH  /  REPEATED STRIKES</text>
+
+  <!-- Three briefs -->
+  <line x1="48" y1="580" x2="976" y2="580" class="rule"/>
+  <rect x="48" y="594" width="292" height="199" fill="#efe6d4"/>
+  <rect x="48" y="594" width="8" height="199" fill="#c0392b"/>
+  <text x="70" y="623" class="bold red" font-size="13" letter-spacing="1.5">01  /  UKRAINE</text>
+  <text x="70" y="655" class="heavy" font-size="20">ZAPORIZHZHIA</text>
+  <text x="70" y="680" class="heavy" font-size="20">STRIKE</text>
+  <line x1="70" y1="694" x2="314" y2="694" class="hairline"/>
+  <text x="70" y="721" class="regular" font-size="15">Russian attack kills 2,</text>
+  <text x="70" y="743" class="regular" font-size="15">wounds 40, children</text>
+  <text x="70" y="765" class="regular" font-size="15">among them</text>
+
+  <rect x="366" y="594" width="292" height="199" fill="#efe6d4"/>
+  <rect x="366" y="594" width="8" height="199" fill="#e0a526"/>
+  <text x="388" y="623" class="bold red" font-size="13" letter-spacing="1.5">02  /  TECHNOLOGY</text>
+  <text x="388" y="655" class="heavy" font-size="20">HUANG BACK</text>
+  <text x="388" y="680" class="heavy" font-size="20">AT NVIDIA</text>
+  <line x1="388" y1="694" x2="632" y2="694" class="hairline"/>
+  <text x="388" y="721" class="regular" font-size="15">Board reinstates CEO</text>
+  <text x="388" y="743" class="regular" font-size="15">Jensen Huang; AI stocks</text>
+  <text x="388" y="765" class="regular" font-size="15">whipsaw</text>
+
+  <rect x="684" y="594" width="292" height="199" fill="#efe6d4"/>
+  <rect x="684" y="594" width="8" height="199" fill="#14213d"/>
+  <text x="706" y="623" class="bold red" font-size="13" letter-spacing="1.5">03  /  CLIMATE</text>
+  <text x="706" y="655" class="heavy" font-size="20">COP31 TALKS</text>
+  <text x="706" y="680" class="heavy" font-size="20">COLLAPSE</text>
+  <line x1="706" y1="694" x2="950" y2="694" class="hairline"/>
+  <text x="706" y="721" class="regular" font-size="15">Climate summit ends</text>
+  <text x="706" y="743" class="regular" font-size="15">with no deal on</text>
+  <text x="706" y="765" class="regular" font-size="15">fossil fuels</text>
+
+  <!-- Bottom digest -->
+  <rect x="48" y="811" width="928" height="139" fill="#14213d"/>
+  <rect x="48" y="811" width="11" height="139" fill="#c0392b"/>
+  <text x="76" y="844" class="heavy gold" font-size="19" letter-spacing="2">ALSO TODAY</text>
+  <line x1="76" y1="857" x2="950" y2="857" stroke="#f7f2e7" stroke-width="1" opacity=".35"/>
+  <text x="76" y="883" class="regular white" font-size="15">Gaza strikes kill Hamas security chief · NATO vows space defence after</text>
+  <text x="76" y="906" class="regular white" font-size="15">nuclear-satellite reports · Senegal restored as Africa Cup champions</text>
+  <text x="76" y="929" class="regular white" font-size="15">· Tankers hit mines in Hormuz as Iran refuses talks</text>
+  <line x1="48" y1="969" x2="976" y2="969" class="rule"/>
+  <text x="48" y="995" class="bold" font-size="14">Tuesday, November 24, 2026 — the whole day, in one image</text>
+  <text x="976" y="995" class="bold red" font-size="12" text-anchor="end" letter-spacing="1.5">END OF EDITION</text>
+</svg>
