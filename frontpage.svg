@@ -8,107 +8,200 @@
     .red { fill: #c0392b; }
     .gold { fill: #e0a526; }
     .white { fill: #fffdf7; }
-    .rule { stroke: #14213d; stroke-width: 2; }
-    .hairline { stroke: #14213d; stroke-width: 1; opacity: .35; }
   </style>
 
-  <!-- Masthead -->
-  <text x="48" y="78" class="heavy" font-size="55" letter-spacing="-2">THE WORLD IN ONE DAY</text>
-  <rect x="48" y="99" width="928" height="43" fill="#c0392b"/>
-  <text x="64" y="128" class="bold white" font-size="21" letter-spacing="2">TUESDAY · NOVEMBER 24, 2026</text>
-  <text x="959" y="128" class="bold white" font-size="15" text-anchor="end" letter-spacing="1">GLOBAL EDITION  /  01</text>
+  <!-- Header and date -->
+  <text x="28" y="23" class="bold" font-size="10" letter-spacing="1">THE WORLD IN ONE DAY · ONE PAGE</text>
+  <text x="996" y="23" class="bold" font-size="9" text-anchor="end" letter-spacing=".35">30 STORIES · 5 REGIONS · ALL FROM TUESDAY 24 NOVEMBER 2026</text>
+  <line x1="28" y1="31" x2="996" y2="31" stroke="#14213d" stroke-width="1.5"/>
+  <text x="28" y="83" font-family="'Noto Serif', Georgia, serif" font-weight="700" font-size="49" letter-spacing="-1.7">Tuesday 24 November 2026</text>
+  <text x="28" y="106" font-size="13" font-style="italic">UN probe call over Libya strike · Riyadh tower hit again · Leaked toll stuns Moscow</text>
 
-  <!-- Lead story -->
-  <text x="48" y="174" class="bold red" font-size="14" letter-spacing="2">WORLD  /  CONFLICT</text>
-  <text x="48" y="211" class="heavy" font-size="29" letter-spacing="-.5">UKRAINE SINKS RUSSIAN</text>
-  <text x="48" y="243" class="heavy" font-size="29" letter-spacing="-.5">WARSHIP OFF LIBYA</text>
-  <text x="48" y="272" class="regular" font-size="16">Naval drones hit a Russian corvette in Benghazi port;</text>
-  <text x="48" y="293" class="regular" font-size="16">the UN calls for a probe</text>
-
-  <!-- Hand-drawn flat editorial scene -->
-  <rect x="48" y="308" width="588" height="248" fill="#efe6d4" stroke="#14213d" stroke-width="2"/>
-  <circle cx="552" cy="359" r="22" fill="#e0a526"/>
-  <path d="M50 418 C145 400 205 433 300 414 C400 394 500 431 634 406 L634 554 L50 554 Z" fill="#14213d"/>
-  <path d="M50 434 C143 416 215 450 309 432 C411 411 513 450 634 425" fill="none" stroke="#e0a526" stroke-width="3"/>
-  <path d="M66 479 C144 465 203 490 274 477 M384 480 C457 467 516 490 608 472" fill="none" stroke="#f7f2e7" stroke-width="2" opacity=".8"/>
-  <path d="M255 420 L285 389 L435 389 L469 420 L505 429 L493 446 L227 446 L211 436 Z" fill="#14213d"/>
-  <path d="M285 389 L296 366 L369 366 L387 389 Z" fill="#14213d"/>
-  <rect x="315" y="350" width="8" height="17" fill="#14213d"/>
-  <path d="M319 351 L340 361 L319 361 Z" fill="#c0392b"/>
-  <rect x="353" y="354" width="7" height="12" fill="#14213d"/>
-  <path d="M362 389 L382 379 L400 389" fill="none" stroke="#e0a526" stroke-width="3"/>
-  <path d="M244 427 L468 427" stroke="#e0a526" stroke-width="3"/>
-  <circle cx="281" cy="437" r="3" fill="#e0a526"/>
-  <circle cx="309" cy="437" r="3" fill="#e0a526"/>
-  <circle cx="337" cy="437" r="3" fill="#e0a526"/>
-  <circle cx="365" cy="437" r="3" fill="#e0a526"/>
-  <circle cx="393" cy="437" r="3" fill="#e0a526"/>
-  <!-- Drone -->
-  <g transform="translate(165 352)" stroke="#14213d" stroke-width="4" stroke-linecap="round">
-    <path d="M-21 0 L21 0 M-12 -7 L12 7 M-12 7 L12 -7"/>
-    <path d="M-30 -3 L-23 -3 M23 -3 L30 -3 M-15 -12 L-11 -8 M11 8 L15 12" stroke-width="3"/>
-    <circle cx="-31" cy="0" r="4" fill="#c0392b" stroke="none"/>
-    <circle cx="31" cy="0" r="4" fill="#c0392b" stroke="none"/>
+  <!-- Six key numbers -->
+  <g>
+    <rect x="28" y="117" width="161" height="62" fill="#efe6d4"/>
+    <rect x="189" y="117" width="161" height="62" fill="#f1e9da"/>
+    <rect x="350" y="117" width="161" height="62" fill="#efe6d4"/>
+    <rect x="511" y="117" width="161" height="62" fill="#f1e9da"/>
+    <rect x="672" y="117" width="161" height="62" fill="#efe6d4"/>
+    <rect x="833" y="117" width="163" height="62" fill="#f1e9da"/>
+    <path d="M189 117V179 M350 117V179 M511 117V179 M672 117V179 M833 117V179" stroke="#14213d" stroke-width="1" opacity=".22"/>
+    <text x="39" y="144" class="heavy red" font-size="22">2 / 40</text>
+    <text x="39" y="163" class="bold" font-size="9.5">KILLED · HURT / ZAPORIZHZHIA</text>
+    <text x="200" y="144" class="heavy red" font-size="22">11</text>
+    <text x="200" y="163" class="bold" font-size="9.5">INJURED / RIYADH TOWER HIT</text>
+    <text x="361" y="144" class="heavy red" font-size="22">700,000</text>
+    <text x="361" y="163" class="bold" font-size="9.5">LEAKED RUSSIAN TOLL</text>
+    <text x="522" y="144" class="heavy red" font-size="22">6,500</text>
+    <text x="522" y="163" class="bold" font-size="9.5">ROHINGYA TO BE RETURNED</text>
+    <text x="683" y="144" class="heavy red" font-size="22">3</text>
+    <text x="683" y="163" class="bold" font-size="9.5">TANKERS / MINED IN HORMUZ</text>
+    <text x="844" y="144" class="heavy red" font-size="22">$87.51</text>
+    <text x="844" y="163" class="bold" font-size="9.5">BRENT CRUDE, +1.0%</text>
   </g>
-  <text x="66" y="536" class="bold white" font-size="12" letter-spacing="2">BENGHAZI PORT · MEDITERRANEAN</text>
 
-  <!-- Second story -->
-  <line x1="662" y1="160" x2="662" y2="556" class="hairline"/>
-  <text x="686" y="174" class="bold red" font-size="14" letter-spacing="2">MIDDLE EAST</text>
-  <text x="686" y="211" class="heavy" font-size="25" letter-spacing="-.6">RIYADH'S</text>
-  <text x="686" y="239" class="heavy" font-size="25" letter-spacing="-.6">TALLEST TOWER</text>
-  <text x="686" y="267" class="heavy" font-size="25" letter-spacing="-.6">HIT AGAIN</text>
-  <text x="686" y="297" class="regular" font-size="15">Houthi strike injures 11,</text>
-  <text x="686" y="317" class="regular" font-size="15">the second attack in five days</text>
-  <rect x="686" y="336" width="290" height="220" fill="#efe6d4"/>
-  <path d="M700 520 L700 473 L735 473 L735 449 L762 449 L762 477 L786 477 L786 421 L811 421 L811 392 L830 354 L849 392 L849 421 L875 421 L875 456 L902 456 L902 482 L962 482 L962 520 Z" fill="#14213d"/>
-  <path d="M830 354 L830 337 M824 339 L836 339" stroke="#c0392b" stroke-width="4"/>
-  <path d="M818 405 L842 405 M818 418 L842 418 M818 431 L842 431 M818 444 L842 444 M818 457 L842 457" stroke="#e0a526" stroke-width="3"/>
-  <path d="M705 490 L729 490 M741 490 L755 490 M770 491 L780 491 M859 438 L870 438 M886 472 L897 472 M914 497 L924 497" stroke="#e0a526" stroke-width="3"/>
-  <path d="M686 532 L976 532" stroke="#c0392b" stroke-width="3"/>
-  <text x="700" y="550" class="bold" font-size="12" letter-spacing="1.5">RIYADH  /  REPEATED STRIKES</text>
+  <!-- Regional tally -->
+  <g>
+    <rect x="28" y="184" width="194" height="25" fill="#14213d"/>
+    <rect x="222" y="184" width="194" height="25" fill="#c0392b"/>
+    <rect x="416" y="184" width="194" height="25" fill="#e0a526"/>
+    <rect x="610" y="184" width="194" height="25" fill="#14213d"/>
+    <rect x="804" y="184" width="192" height="25" fill="#c0392b"/>
+    <text x="125" y="201" text-anchor="middle" class="bold white" font-size="10.5" letter-spacing=".7">EUROPE 11</text>
+    <text x="319" y="201" text-anchor="middle" class="bold white" font-size="10.5" letter-spacing=".5">MIDDLE EAST 5</text>
+    <text x="513" y="201" text-anchor="middle" class="bold" font-size="10.5" letter-spacing=".7">ASIA 5</text>
+    <text x="707" y="201" text-anchor="middle" class="bold white" font-size="10.5" letter-spacing=".7">AFRICA 4</text>
+    <text x="900" y="201" text-anchor="middle" class="bold white" font-size="10.5" letter-spacing=".7">AMERICAS 5</text>
+  </g>
 
-  <!-- Three briefs -->
-  <line x1="48" y1="580" x2="976" y2="580" class="rule"/>
-  <rect x="48" y="594" width="292" height="199" fill="#efe6d4"/>
-  <rect x="48" y="594" width="8" height="199" fill="#c0392b"/>
-  <text x="70" y="623" class="bold red" font-size="13" letter-spacing="1.5">01  /  UKRAINE</text>
-  <text x="70" y="655" class="heavy" font-size="20">ZAPORIZHZHIA</text>
-  <text x="70" y="680" class="heavy" font-size="20">STRIKE</text>
-  <line x1="70" y1="694" x2="314" y2="694" class="hairline"/>
-  <text x="70" y="721" class="regular" font-size="15">Russian attack kills 2,</text>
-  <text x="70" y="743" class="regular" font-size="15">wounds 40, children</text>
-  <text x="70" y="765" class="regular" font-size="15">among them</text>
+  <!-- Twelve lead cards -->
+  <g>
+    <!-- 1 -->
+    <rect x="28" y="217" width="236" height="119" fill="#efe6d4"/>
+    <rect x="28" y="217" width="236" height="5" fill="#c0392b"/>
+    <circle cx="248" cy="219.5" r="3" fill="#e0a526"/>
+    <rect x="36" y="228" width="19" height="16" fill="#14213d"/><text x="45.5" y="240" text-anchor="middle" class="bold white" font-size="9">1</text>
+    <text x="60" y="240" class="bold" font-size="8.1">BENGHAZI, LIBYA — WAR</text>
+    <text x="256" y="240" text-anchor="end" class="bold red" font-size="7.2">REPORTED</text>
+    <text x="36" y="262" class="heavy" font-size="15">UN seeks probe into</text><text x="36" y="279" class="heavy" font-size="15">port attacks</text>
+    <text x="36" y="297" class="regular" font-size="9.3">Ukraine's drone sinking of a Russian</text><text x="36" y="309" class="regular" font-size="9.3">corvette draws an inquiry call; Italy</text><text x="36" y="321" class="regular" font-size="9.3">protests (UN News)</text>
+    <!-- 2 -->
+    <rect x="272" y="217" width="236" height="119" fill="#f1e9da"/>
+    <rect x="272" y="217" width="236" height="5" fill="#e0a526"/>
+    <path d="M490 217h18v5h-18z" fill="#14213d"/>
+    <rect x="280" y="228" width="19" height="16" fill="#14213d"/><text x="289.5" y="240" text-anchor="middle" class="bold white" font-size="9">2</text>
+    <text x="304" y="240" class="bold" font-size="8.1">RIYADH, SAUDI ARABIA — CONFLICT</text>
+    <text x="500" y="240" text-anchor="end" class="bold red" font-size="7.2">REPORTED</text>
+    <text x="280" y="262" class="heavy" font-size="15">Tallest tower</text><text x="280" y="279" class="heavy" font-size="15">hit again</text>
+    <text x="280" y="297" class="regular" font-size="9.3">Houthi strike injures 11, the second</text><text x="280" y="309" class="regular" font-size="9.3">in five days; fighters close on Aden</text><text x="280" y="321" class="regular" font-size="9.3">(wires)</text>
+    <!-- 3 -->
+    <rect x="516" y="217" width="236" height="119" fill="#efe6d4"/>
+    <rect x="516" y="217" width="236" height="5" fill="#c0392b"/>
+    <circle cx="739" cy="219.5" r="3" fill="#e0a526"/>
+    <rect x="524" y="228" width="19" height="16" fill="#14213d"/><text x="533.5" y="240" text-anchor="middle" class="bold white" font-size="9">3</text>
+    <text x="548" y="240" class="bold" font-size="8.1">ZAPORIZHZHIA, UKRAINE — WAR</text>
+    <text x="744" y="240" text-anchor="end" class="bold red" font-size="7.2">OFFICIAL</text>
+    <text x="524" y="262" class="heavy" font-size="15">Strike kills 2,</text><text x="524" y="279" class="heavy" font-size="15">wounds 40</text>
+    <text x="524" y="297" class="regular" font-size="9.3">Apartment block hit overnight; four</text><text x="524" y="309" class="regular" font-size="9.3">children among the wounded</text><text x="524" y="321" class="regular" font-size="9.3">(officials)</text>
+    <!-- 4 -->
+    <rect x="760" y="217" width="236" height="119" fill="#f1e9da"/>
+    <rect x="760" y="217" width="236" height="5" fill="#14213d"/>
+    <path d="M978 217h18v5h-18z" fill="#e0a526"/>
+    <rect x="768" y="228" width="19" height="16" fill="#14213d"/><text x="777.5" y="240" text-anchor="middle" class="bold white" font-size="9">4</text>
+    <text x="792" y="240" class="bold" font-size="8.1">GAZA — WAR</text>
+    <text x="988" y="240" text-anchor="end" class="bold red" font-size="7.2">REPORTED</text>
+    <text x="768" y="262" class="heavy" font-size="15">Strikes kill Hamas</text><text x="768" y="279" class="heavy" font-size="15">security chief</text>
+    <text x="768" y="297" class="regular" font-size="9.3">Internal security director among at</text><text x="768" y="309" class="regular" font-size="9.3">least six dead on Tuesday (medics)</text>
 
-  <rect x="366" y="594" width="292" height="199" fill="#efe6d4"/>
-  <rect x="366" y="594" width="8" height="199" fill="#e0a526"/>
-  <text x="388" y="623" class="bold red" font-size="13" letter-spacing="1.5">02  /  TECHNOLOGY</text>
-  <text x="388" y="655" class="heavy" font-size="20">HUANG BACK</text>
-  <text x="388" y="680" class="heavy" font-size="20">AT NVIDIA</text>
-  <line x1="388" y1="694" x2="632" y2="694" class="hairline"/>
-  <text x="388" y="721" class="regular" font-size="15">Board reinstates CEO</text>
-  <text x="388" y="743" class="regular" font-size="15">Jensen Huang; AI stocks</text>
-  <text x="388" y="765" class="regular" font-size="15">whipsaw</text>
+    <!-- 5 -->
+    <rect x="28" y="342" width="236" height="119" fill="#f1e9da"/>
+    <rect x="28" y="342" width="236" height="5" fill="#e0a526"/>
+    <path d="M246 342h18v5h-18z" fill="#14213d"/>
+    <rect x="36" y="353" width="19" height="16" fill="#14213d"/><text x="45.5" y="365" text-anchor="middle" class="bold white" font-size="9">5</text>
+    <text x="60" y="365" class="bold" font-size="8.1">TALLINN, ESTONIA — DIPLOMACY</text>
+    <text x="256" y="365" text-anchor="end" class="bold red" font-size="7.2">CLAIM</text>
+    <text x="36" y="387" class="heavy" font-size="15">Russia warns of</text><text x="36" y="404" class="heavy" font-size="15">“open war”</text>
+    <text x="36" y="422" class="regular" font-size="9.3">Moscow protests Estonia's plan to close</text><text x="36" y="434" class="regular" font-size="9.3">border crossings on Dec 1 (wires)</text>
+    <!-- 6 -->
+    <rect x="272" y="342" width="236" height="119" fill="#efe6d4"/>
+    <rect x="272" y="342" width="236" height="5" fill="#c0392b"/>
+    <circle cx="495" cy="344.5" r="3" fill="#e0a526"/>
+    <rect x="280" y="353" width="19" height="16" fill="#14213d"/><text x="289.5" y="365" text-anchor="middle" class="bold white" font-size="9">6</text>
+    <text x="304" y="365" class="bold" font-size="8.1">BRUSSELS — NATO</text>
+    <text x="500" y="365" text-anchor="end" class="bold red" font-size="7.2">REPORTED</text>
+    <text x="280" y="387" class="heavy" font-size="15">Alliance vows</text><text x="280" y="404" class="heavy" font-size="15">space defence</text>
+    <text x="280" y="422" class="regular" font-size="9.3">Rutte answers reports of a Russian</text><text x="280" y="434" class="regular" font-size="9.3">nuclear-armed satellite (BBC)</text>
+    <!-- 7 -->
+    <rect x="516" y="342" width="236" height="119" fill="#f1e9da"/>
+    <rect x="516" y="342" width="236" height="5" fill="#14213d"/>
+    <path d="M734 342h18v5h-18z" fill="#e0a526"/>
+    <rect x="524" y="353" width="19" height="16" fill="#14213d"/><text x="533.5" y="365" text-anchor="middle" class="bold white" font-size="9">7</text>
+    <text x="548" y="365" class="bold" font-size="8.1">SEOUL, SOUTH KOREA — SECURITY</text>
+    <text x="744" y="365" text-anchor="end" class="bold red" font-size="7.2">OFFICIAL</text>
+    <text x="524" y="387" class="heavy" font-size="15">Russian jets enter</text><text x="524" y="404" class="heavy" font-size="15">air zone</text>
+    <text x="524" y="422" class="regular" font-size="9.3">Island residents told to shelter as</text><text x="524" y="434" class="regular" font-size="9.3">aircraft cross the defence zone (JCS)</text>
+    <!-- 8 -->
+    <rect x="760" y="342" width="236" height="119" fill="#efe6d4"/>
+    <rect x="760" y="342" width="236" height="5" fill="#e0a526"/>
+    <circle cx="983" cy="344.5" r="3" fill="#c0392b"/>
+    <rect x="768" y="353" width="19" height="16" fill="#14213d"/><text x="777.5" y="365" text-anchor="middle" class="bold white" font-size="9">8</text>
+    <text x="792" y="365" class="bold" font-size="8.1">BERLIN — DEFENCE</text>
+    <text x="988" y="365" text-anchor="end" class="bold red" font-size="7.2">OFFICIAL</text>
+    <text x="768" y="387" class="heavy" font-size="15">Germany gets</text><text x="768" y="404" class="heavy" font-size="15">Ukraine's Delta</text>
+    <text x="768" y="422" class="regular" font-size="9.3">First foreign access to Kyiv's battlefield</text><text x="768" y="434" class="regular" font-size="9.3">system, signed Tuesday (ministries)</text>
 
-  <rect x="684" y="594" width="292" height="199" fill="#efe6d4"/>
-  <rect x="684" y="594" width="8" height="199" fill="#14213d"/>
-  <text x="706" y="623" class="bold red" font-size="13" letter-spacing="1.5">03  /  CLIMATE</text>
-  <text x="706" y="655" class="heavy" font-size="20">COP31 TALKS</text>
-  <text x="706" y="680" class="heavy" font-size="20">COLLAPSE</text>
-  <line x1="706" y1="694" x2="950" y2="694" class="hairline"/>
-  <text x="706" y="721" class="regular" font-size="15">Climate summit ends</text>
-  <text x="706" y="743" class="regular" font-size="15">with no deal on</text>
-  <text x="706" y="765" class="regular" font-size="15">fossil fuels</text>
+    <!-- 9 -->
+    <rect x="28" y="467" width="236" height="119" fill="#efe6d4"/>
+    <rect x="28" y="467" width="236" height="5" fill="#c0392b"/>
+    <circle cx="251" cy="469.5" r="3" fill="#e0a526"/>
+    <rect x="36" y="478" width="19" height="16" fill="#14213d"/><text x="45.5" y="490" text-anchor="middle" class="bold white" font-size="9">9</text>
+    <text x="60" y="490" class="bold" font-size="8.1">MOSCOW — WAR DATA</text>
+    <text x="256" y="490" text-anchor="end" class="bold red" font-size="7.2">CLAIM</text>
+    <text x="36" y="512" class="heavy" font-size="15">Leaked toll:</text><text x="36" y="529" class="heavy" font-size="15">700,000 dead</text>
+    <text x="36" y="547" class="regular" font-size="9.3">New analysis points to a staggering</text><text x="36" y="559" class="regular" font-size="9.3">Russian military death count</text><text x="36" y="571" class="regular" font-size="9.3">(Kyiv Independent)</text>
+    <!-- 10 -->
+    <rect x="272" y="467" width="236" height="119" fill="#f1e9da"/>
+    <rect x="272" y="467" width="236" height="5" fill="#14213d"/>
+    <path d="M490 467h18v5h-18z" fill="#e0a526"/>
+    <rect x="280" y="478" width="19" height="16" fill="#14213d"/><text x="289.5" y="490" text-anchor="middle" class="bold white" font-size="9">10</text>
+    <text x="304" y="490" class="bold" font-size="8.1">ERBIL, IRAQ — POLITICS</text>
+    <text x="500" y="490" text-anchor="end" class="bold red" font-size="7.2">REPORTED</text>
+    <text x="280" y="512" class="heavy" font-size="15">Baghdad takes</text><text x="280" y="529" class="heavy" font-size="15">Kurdish oilfields</text>
+    <text x="280" y="547" class="regular" font-size="9.3">PM orders ministry control of northern</text><text x="280" y="559" class="regular" font-size="9.3">fields after smuggling probe (Reuters)</text>
+    <!-- 11 -->
+    <rect x="516" y="467" width="236" height="119" fill="#f1e9da"/>
+    <rect x="516" y="467" width="236" height="5" fill="#e0a526"/>
+    <path d="M734 467h18v5h-18z" fill="#14213d"/>
+    <rect x="524" y="478" width="19" height="16" fill="#14213d"/><text x="533.5" y="490" text-anchor="middle" class="bold white" font-size="9">11</text>
+    <text x="548" y="490" class="bold" font-size="8.1">SHANGHAI, CHINA — POLITICS</text>
+    <text x="744" y="490" text-anchor="end" class="bold red" font-size="7.2">REPORTED</text>
+    <text x="524" y="512" class="heavy" font-size="15">Politburo member</text><text x="524" y="529" class="heavy" font-size="15">probed</text>
+    <text x="524" y="547" class="regular" font-size="9.3">Chen Jining under a corruption</text><text x="524" y="559" class="regular" font-size="9.3">investigation, state media say (wires)</text>
+    <!-- 12 -->
+    <rect x="760" y="467" width="236" height="119" fill="#efe6d4"/>
+    <rect x="760" y="467" width="236" height="5" fill="#c0392b"/>
+    <circle cx="983" cy="469.5" r="3" fill="#e0a526"/>
+    <rect x="768" y="478" width="19" height="16" fill="#14213d"/><text x="777.5" y="490" text-anchor="middle" class="bold white" font-size="9">12</text>
+    <text x="792" y="490" class="bold" font-size="8.1">DAKAR, SENEGAL — SPORT</text>
+    <text x="988" y="490" text-anchor="end" class="bold red" font-size="7.2">OFFICIAL</text>
+    <text x="768" y="512" class="heavy" font-size="15">Senegal restored</text><text x="768" y="529" class="heavy" font-size="15">as champions</text>
+    <text x="768" y="547" class="regular" font-size="9.3">Court ruling returns the 2025 Africa</text><text x="768" y="559" class="regular" font-size="9.3">Cup of Nations title (CAS)</text>
+  </g>
 
-  <!-- Bottom digest -->
-  <rect x="48" y="811" width="928" height="139" fill="#14213d"/>
-  <rect x="48" y="811" width="11" height="139" fill="#c0392b"/>
-  <text x="76" y="844" class="heavy gold" font-size="19" letter-spacing="2">ALSO TODAY</text>
-  <line x1="76" y1="857" x2="950" y2="857" stroke="#f7f2e7" stroke-width="1" opacity=".35"/>
-  <text x="76" y="883" class="regular white" font-size="15">Gaza strikes kill Hamas security chief · NATO vows space defence after</text>
-  <text x="76" y="906" class="regular white" font-size="15">nuclear-satellite reports · Senegal restored as Africa Cup champions</text>
-  <text x="76" y="929" class="regular white" font-size="15">· Tankers hit mines in Hormuz as Iran refuses talks</text>
-  <line x1="48" y1="969" x2="976" y2="969" class="rule"/>
-  <text x="48" y="995" class="bold" font-size="14">Tuesday, November 24, 2026 — the whole day, in one image</text>
-  <text x="976" y="995" class="bold red" font-size="12" text-anchor="end" letter-spacing="1.5">END OF EDITION</text>
+  <!-- Remaining stories -->
+  <text x="28" y="609" class="heavy red" font-size="14" letter-spacing="1.2">ALSO ON TUESDAY 24 NOVEMBER 2026</text>
+  <line x1="28" y1="617" x2="996" y2="617" stroke="#14213d" stroke-width="1"/>
+  <g font-size="10.6">
+    <text x="32" y="634"><tspan class="bold red">13</tspan><tspan dx="5">Hormuz: three tankers hit mines; Iran refuses talks (wires)</tspan></text>
+    <text x="32" y="652"><tspan class="bold red">14</tspan><tspan dx="5">Spain: Supreme Court amnesties Puigdemont (wires)</tspan></text>
+    <text x="32" y="670"><tspan class="bold red">15</tspan><tspan dx="5">DR Congo: Ituri fighting traps Ebola teams (WHO)</tspan></text>
+    <text x="32" y="688"><tspan class="bold red">16</tspan><tspan dx="5">Malaysia: 6,500 Rohingya to be sent back (wires)</tspan></text>
+    <text x="32" y="706"><tspan class="bold red">17</tspan><tspan dx="5">Washington: Singapore cloud firm Megaspeed blacklisted (Commerce Dept)</tspan></text>
+    <text x="32" y="724"><tspan class="bold red">18</tspan><tspan dx="5">Seoul: $375k rewards to catch AI exam cheats (wires)</tspan></text>
+    <text x="32" y="742"><tspan class="bold red">19</tspan><tspan dx="5">Markets: S&amp;P 500 slips 0.95% to 7,168 (wires)</tspan></text>
+    <text x="32" y="760"><tspan class="bold red">20</tspan><tspan dx="5">Belgium: strike halts flights nationwide (wires)</tspan></text>
+    <text x="32" y="778"><tspan class="bold red">21</tspan><tspan dx="5">Dhaka: Hasina plans a Dec 16 return (wires)</tspan></text>
+
+    <text x="520" y="634"><tspan class="bold red">22</tspan><tspan dx="5">Mogadishu: Somalia, Uganda step up Al-Shabaab ops (wires)</tspan></text>
+    <text x="520" y="652"><tspan class="bold red">23</tspan><tspan dx="5">US: Oregon and Virginia sue SpaceX over Grok images (courts)</tspan></text>
+    <text x="520" y="670"><tspan class="bold red">24</tspan><tspan dx="5">Washington: Rep. Jimmy Gomez resigns (Congress)</tspan></text>
+    <text x="520" y="688"><tspan class="bold red">25</tspan><tspan dx="5">Europe: gas prices climb as cold snap nears (wires)</tspan></text>
+    <text x="520" y="706"><tspan class="bold red">26</tspan><tspan dx="5">Kyiv: seven states push EU Russian-visa limits (Kyiv Independent)</tspan></text>
+    <text x="520" y="724"><tspan class="bold red">27</tspan><tspan dx="5">Perm: Putin admits oil-market strain (wires)</tspan></text>
+    <text x="520" y="742"><tspan class="bold red">28</tspan><tspan dx="5">Ras Al Khaimah: bus crash kills 13 (wires)</tspan></text>
+    <text x="520" y="760"><tspan class="bold red">29</tspan><tspan dx="5">California: king tides threaten the coast (agencies)</tspan></text>
+    <text x="520" y="778"><tspan class="bold red">30</tspan><tspan dx="5">Vatican: Pope Francis's private diary published (wires)</tspan></text>
+  </g>
+
+  <!-- Date integrity note -->
+  <rect x="28" y="793" width="968" height="117" fill="#f1e9da" stroke="#c0392b" stroke-width="2"/>
+  <rect x="28" y="793" width="8" height="117" fill="#c0392b"/>
+  <text x="48" y="816" class="heavy red" font-size="13" letter-spacing="1.2">DATE CHECK</text>
+  <text x="48" y="838" class="regular" font-size="11.5">Every story here happened, or was first reported, on Tuesday 24 November 2026 in at least one time zone.</text>
+  <text x="48" y="858" class="regular" font-size="11.5">Earlier news left out: Nvidia's CEO reinstatement (Mon 23 — only Tuesday's market reaction is counted, story 19) and the</text>
+  <text x="48" y="878" class="regular" font-size="11.5">Benghazi sinking itself (first reported Mon 23 — Tuesday's UN probe call is the new story, card 1).</text>
+  <text x="48" y="898" class="regular" font-size="11.5">Not yet: Estonia's border closure takes effect Dec 1.</text>
+  <!-- Footer -->
+  <line x1="28" y1="919" x2="996" y2="919" stroke="#14213d" stroke-width="1.5"/>
+  <text x="28" y="941" class="bold" font-size="10.5">Sources named beside each story · All drawings original · Tuesday, November 24, 2026 — the whole day, in one image</text>
 </svg>
